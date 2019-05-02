@@ -7,18 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		262539EC227B938600688994 /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262539E9227B938600688994 /* StatusMenuController.swift */; };
+		262539EE227B938600688994 /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262539EB227B938600688994 /* SearchController.swift */; };
+		262539F1227B93B500688994 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 262539EF227B93B500688994 /* MainMenu.xib */; };
+		262539F3227B94A700688994 /* LatexCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262539F2227B94A700688994 /* LatexCell.swift */; };
+		262539F5227B974800688994 /* Symbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262539F4227B974800688994 /* Symbol.swift */; };
 		268554E6227B91F7007AB2C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268554E5227B91F7007AB2C8 /* AppDelegate.swift */; };
 		268554E8227B91F8007AB2C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 268554E7227B91F8007AB2C8 /* Assets.xcassets */; };
-		268554EB227B91F8007AB2C8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 268554E9227B91F8007AB2C8 /* MainMenu.xib */; };
+		6FF1F751E3C26A0C31FDB392 /* Pods_Latex_Finder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41769096C62CBA23EF9954A6 /* Pods_Latex_Finder.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		25AAEA482282AD50A4B04687 /* Pods-Latex Finder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Latex Finder.debug.xcconfig"; path = "Target Support Files/Pods-Latex Finder/Pods-Latex Finder.debug.xcconfig"; sourceTree = "<group>"; };
+		262539E9227B938600688994 /* StatusMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusMenuController.swift; sourceTree = "<group>"; };
+		262539EB227B938600688994 /* SearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		262539F0227B93B500688994 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		262539F2227B94A700688994 /* LatexCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatexCell.swift; sourceTree = "<group>"; };
+		262539F4227B974800688994 /* Symbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbol.swift; sourceTree = "<group>"; };
 		268554E2227B91F7007AB2C8 /* Latex Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Latex Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		268554E5227B91F7007AB2C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		268554E7227B91F8007AB2C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		268554EA227B91F8007AB2C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		268554EC227B91F8007AB2C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		268554ED227B91F8007AB2C8 /* Latex_Finder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Latex_Finder.entitlements; sourceTree = "<group>"; };
+		41769096C62CBA23EF9954A6 /* Pods_Latex_Finder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Latex_Finder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92365E63A4C54191B21BB802 /* Pods-Latex Finder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Latex Finder.release.xcconfig"; path = "Target Support Files/Pods-Latex Finder/Pods-Latex Finder.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FF1F751E3C26A0C31FDB392 /* Pods_Latex_Finder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +50,8 @@
 			children = (
 				268554E4227B91F7007AB2C8 /* Latex Finder */,
 				268554E3227B91F7007AB2C8 /* Products */,
+				5C40F9D8783847447B76990D /* Pods */,
+				9EC13A33FA502313CE616BDE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,12 +67,34 @@
 			isa = PBXGroup;
 			children = (
 				268554E5227B91F7007AB2C8 /* AppDelegate.swift */,
+				262539E9227B938600688994 /* StatusMenuController.swift */,
+				262539EB227B938600688994 /* SearchController.swift */,
+				262539F2227B94A700688994 /* LatexCell.swift */,
+				262539F4227B974800688994 /* Symbol.swift */,
+				262539EF227B93B500688994 /* MainMenu.xib */,
 				268554E7227B91F8007AB2C8 /* Assets.xcassets */,
-				268554E9227B91F8007AB2C8 /* MainMenu.xib */,
 				268554EC227B91F8007AB2C8 /* Info.plist */,
 				268554ED227B91F8007AB2C8 /* Latex_Finder.entitlements */,
 			);
 			path = "Latex Finder";
+			sourceTree = "<group>";
+		};
+		5C40F9D8783847447B76990D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25AAEA482282AD50A4B04687 /* Pods-Latex Finder.debug.xcconfig */,
+				92365E63A4C54191B21BB802 /* Pods-Latex Finder.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../iosMath/Pods;
+			sourceTree = "<group>";
+		};
+		9EC13A33FA502313CE616BDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41769096C62CBA23EF9954A6 /* Pods_Latex_Finder.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -67,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 268554F0227B91F8007AB2C8 /* Build configuration list for PBXNativeTarget "Latex Finder" */;
 			buildPhases = (
+				C327B0D40CCE11DEF5D34D43 /* [CP] Check Pods Manifest.lock */,
 				268554DE227B91F7007AB2C8 /* Sources */,
 				268554DF227B91F7007AB2C8 /* Frameworks */,
 				268554E0227B91F7007AB2C8 /* Resources */,
+				D055897A48BE1274B6C02011 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -119,17 +158,68 @@
 			buildActionMask = 2147483647;
 			files = (
 				268554E8227B91F8007AB2C8 /* Assets.xcassets in Resources */,
-				268554EB227B91F8007AB2C8 /* MainMenu.xib in Resources */,
+				262539F1227B93B500688994 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C327B0D40CCE11DEF5D34D43 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Latex Finder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D055897A48BE1274B6C02011 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Latex Finder/Pods-Latex Finder-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/iosMath-framework/iosMath.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iosMath.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Latex Finder/Pods-Latex Finder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		268554DE227B91F7007AB2C8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				262539F3227B94A700688994 /* LatexCell.swift in Sources */,
+				262539F5227B974800688994 /* Symbol.swift in Sources */,
+				262539EC227B938600688994 /* StatusMenuController.swift in Sources */,
+				262539EE227B938600688994 /* SearchController.swift in Sources */,
 				268554E6227B91F7007AB2C8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,10 +227,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		268554E9227B91F8007AB2C8 /* MainMenu.xib */ = {
+		262539EF227B93B500688994 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				268554EA227B91F8007AB2C8 /* Base */,
+				262539F0227B93B500688994 /* Base */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -265,9 +355,11 @@
 		};
 		268554F1227B91F8007AB2C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25AAEA482282AD50A4B04687 /* Pods-Latex Finder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Latex Finder/Latex_Finder.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = FMYBNSCQ2F;
@@ -278,15 +370,18 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.henrikpanhans.Latex-Finder";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		268554F2227B91F8007AB2C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92365E63A4C54191B21BB802 /* Pods-Latex Finder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Latex Finder/Latex_Finder.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = FMYBNSCQ2F;
@@ -297,6 +392,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.henrikpanhans.Latex-Finder";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
