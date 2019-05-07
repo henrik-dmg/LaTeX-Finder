@@ -20,13 +20,14 @@ class StatusMenuController: NSObject {
         
         menu.delegate = self
         
-        statusItem.button?.title = "TeX"
+        statusItem.button?.image = NSImage(named: "menubarIcon")
         statusItem.menu = menu
         
         if let searchItem = menu.item(withTitle: "Search") {
             self.searchItem = searchItem
         }
         
+        searchItem.target = self
         searchItem.view = searchView
     }
     

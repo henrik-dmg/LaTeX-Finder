@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		261DF593227E561E00D4111A /* convertcsv.json in Resources */ = {isa = PBXBuildFile; fileRef = 261DF592227E561E00D4111A /* convertcsv.json */; };
 		262539EC227B938600688994 /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262539E9227B938600688994 /* StatusMenuController.swift */; };
 		262539EE227B938600688994 /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262539EB227B938600688994 /* SearchController.swift */; };
 		262539F1227B93B500688994 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 262539EF227B93B500688994 /* MainMenu.xib */; };
 		262539F3227B94A700688994 /* LatexCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262539F2227B94A700688994 /* LatexCell.swift */; };
 		262539F5227B974800688994 /* Symbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262539F4227B974800688994 /* Symbol.swift */; };
+		262539F7227BAB0E00688994 /* SymbolStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262539F6227BAB0E00688994 /* SymbolStore.swift */; };
 		268554E6227B91F7007AB2C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268554E5227B91F7007AB2C8 /* AppDelegate.swift */; };
 		268554E8227B91F8007AB2C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 268554E7227B91F8007AB2C8 /* Assets.xcassets */; };
 		6FF1F751E3C26A0C31FDB392 /* Pods_Latex_Finder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41769096C62CBA23EF9954A6 /* Pods_Latex_Finder.framework */; };
@@ -19,11 +21,13 @@
 
 /* Begin PBXFileReference section */
 		25AAEA482282AD50A4B04687 /* Pods-Latex Finder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Latex Finder.debug.xcconfig"; path = "Target Support Files/Pods-Latex Finder/Pods-Latex Finder.debug.xcconfig"; sourceTree = "<group>"; };
+		261DF592227E561E00D4111A /* convertcsv.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = convertcsv.json; sourceTree = "<group>"; };
 		262539E9227B938600688994 /* StatusMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusMenuController.swift; sourceTree = "<group>"; };
 		262539EB227B938600688994 /* SearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
 		262539F0227B93B500688994 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		262539F2227B94A700688994 /* LatexCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatexCell.swift; sourceTree = "<group>"; };
 		262539F4227B974800688994 /* Symbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbol.swift; sourceTree = "<group>"; };
+		262539F6227BAB0E00688994 /* SymbolStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolStore.swift; sourceTree = "<group>"; };
 		268554E2227B91F7007AB2C8 /* Latex Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Latex Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		268554E5227B91F7007AB2C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		268554E7227B91F8007AB2C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -45,6 +49,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		262539F8227BAB1A00688994 /* Symbols */ = {
+			isa = PBXGroup;
+			children = (
+				262539F4227B974800688994 /* Symbol.swift */,
+				262539F6227BAB0E00688994 /* SymbolStore.swift */,
+			);
+			path = Symbols;
+			sourceTree = "<group>";
+		};
 		268554D9227B91F7007AB2C8 = {
 			isa = PBXGroup;
 			children = (
@@ -70,10 +83,11 @@
 				262539E9227B938600688994 /* StatusMenuController.swift */,
 				262539EB227B938600688994 /* SearchController.swift */,
 				262539F2227B94A700688994 /* LatexCell.swift */,
-				262539F4227B974800688994 /* Symbol.swift */,
+				262539F8227BAB1A00688994 /* Symbols */,
 				262539EF227B93B500688994 /* MainMenu.xib */,
 				268554E7227B91F8007AB2C8 /* Assets.xcassets */,
 				268554EC227B91F8007AB2C8 /* Info.plist */,
+				261DF592227E561E00D4111A /* convertcsv.json */,
 				268554ED227B91F8007AB2C8 /* Latex_Finder.entitlements */,
 			);
 			path = "Latex Finder";
@@ -159,6 +173,7 @@
 			files = (
 				268554E8227B91F8007AB2C8 /* Assets.xcassets in Resources */,
 				262539F1227B93B500688994 /* MainMenu.xib in Resources */,
+				261DF593227E561E00D4111A /* convertcsv.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				262539F3227B94A700688994 /* LatexCell.swift in Sources */,
+				262539F7227BAB0E00688994 /* SymbolStore.swift in Sources */,
 				262539F5227B974800688994 /* Symbol.swift in Sources */,
 				262539EC227B938600688994 /* StatusMenuController.swift in Sources */,
 				262539EE227B938600688994 /* SearchController.swift in Sources */,

@@ -33,7 +33,7 @@
                     </connections>
                 </menuItem>
             </items>
-            <point key="canvasLocation" x="116.5" y="-222"/>
+            <point key="canvasLocation" x="251" y="-217"/>
         </menu>
         <customView id="W2m-Db-2ay" customClass="SearchController" customModule="Latex_Finder" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="362" height="161"/>
@@ -79,9 +79,9 @@
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 <subviews>
                                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="XNW-dB-M8f">
-                                                        <rect key="frame" x="316" y="11" width="37" height="17"/>
+                                                        <rect key="frame" x="309" y="10" width="44" height="19"/>
                                                         <textFieldCell key="cell" lineBreakMode="clipping" title="Label" id="gbf-Hg-Nqy">
-                                                            <font key="font" metaFont="system"/>
+                                                            <font key="font" metaFont="system" size="16"/>
                                                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                         </textFieldCell>
@@ -135,7 +135,7 @@
                 <outlet property="searchBar" destination="Ohl-0F-sXB" id="UFG-m6-mfv"/>
                 <outlet property="tableView" destination="R7y-Zv-ZvP" id="yhC-mX-GiV"/>
             </connections>
-            <point key="canvasLocation" x="193" y="14.5"/>
+            <point key="canvasLocation" x="-128" y="66"/>
         </customView>
     </objects>
 </document>

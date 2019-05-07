@@ -1,0 +1,626 @@
+[
+ {
+   "Category": "Mengenlehre",
+   "Subcategory": "Mengenkonstruktion",
+   "Interpretation": "leere Menge",
+   "LaTeX": "\\emptyset",
+   "HTML": "&empty;",
+   "Unicode": "U+2205"
+ },
+ {
+   "Category": "Mengenlehre",
+   "Subcategory": "Mengenkonstruktion",
+   "Interpretation": "Menge bestehend aus den Elementen ,  und so weiter",
+   "LaTeX": "\\{ \\}",
+   "HTML": "",
+   "Unicode": "U+007B/D"
+ },
+ {
+   "Category": "Mengenlehre",
+   "Subcategory": "Mengenkonstruktion",
+   "Interpretation": "Menge oder Klasse der Elemente , die die Bedingung  erfüllen",
+   "LaTeX": "\\mid",
+   "HTML": "",
+   "Unicode": "U+007C"
+ },
+ {
+   "Category": "Mengenlehre",
+   "Subcategory": "Mengenkonstruktion",
+   "Interpretation": "Menge oder Klasse der Elemente , die die Bedingung  erfüllen",
+   "LaTeX": ":",
+   "HTML": "",
+   "Unicode": "U+003A"
+ },
+ {
+   "Category": "Mengenlehre",
+   "Subcategory": "Mengenoperationen",
+   "Interpretation": "Vereinigung der Mengen  und ",
+   "LaTeX": "\\cup",
+   "HTML": "&cup;",
+   "Unicode": "U+222A"
+ },
+ {
+   "Category": "Mengenlehre",
+   "Subcategory": "Mengenoperationen",
+   "Interpretation": "Durchschnitt der Mengen  und ",
+   "LaTeX": "\\cap",
+   "HTML": "&cap;",
+   "Unicode": "U+2229"
+ },
+ {
+   "Category": "Mengenlehre",
+   "Subcategory": "Mengenoperationen",
+   "Interpretation": "Differenz der Mengen  und ",
+   "LaTeX": "\\setminus",
+   "HTML": "",
+   "Unicode": "U+2216"
+ },
+ {
+   "Category": "Mengenlehre",
+   "Subcategory": "Mengenoperationen",
+   "Interpretation": "symmetrische Differenz der Mengen  und ",
+   "LaTeX": "\\triangle",
+   "HTML": "&Delta;",
+   "Unicode": "U+2206"
+ },
+ {
+   "Category": "Mengenlehre",
+   "Subcategory": "Mengenoperationen",
+   "Interpretation": "kartesisches Produkt der Mengen  und ",
+   "LaTeX": "\\times",
+   "HTML": "&times;",
+   "Unicode": "U+2A2F"
+ },
+ {
+   "Category": "Mengenlehre",
+   "Subcategory": "Mengenoperationen",
+   "Interpretation": "Vereinigung disjunkter Mengen  und ",
+   "LaTeX": "\\dot\\cup",
+   "HTML": "",
+   "Unicode": "U+228D"
+ },
+ {
+   "Category": "Mengenlehre",
+   "Subcategory": "Mengenoperationen",
+   "Interpretation": "Disjunkte Vereinigung der Mengen  und ",
+   "LaTeX": "\\sqcup",
+   "HTML": "",
+   "Unicode": "U+2294"
+ },
+ {
+   "Category": "Mengenlehre",
+   "Subcategory": "Mengenoperationen",
+   "Interpretation": "Komplement der Menge ",
+   "LaTeX": "\\mathrm{C}",
+   "HTML": "",
+   "Unicode": "U+2201"
+ },
+ {
+   "Category": "Mengenlehre",
+   "Subcategory": "Mengenoperationen",
+   "Interpretation": "Komplement der Menge ",
+   "LaTeX": "\\bar",
+   "HTML": "",
+   "Unicode": "U+0305"
+ },
+ {
+   "Category": "Mengenlehre",
+   "Subcategory": "Mengenoperationen",
+   "Interpretation": "Potenzmenge der Menge ",
+   "LaTeX": "\\mathcal{P}",
+   "HTML": "",
+   "Unicode": "U+1D4AB"
+ },
+ {
+   "Category": "Mengenlehre",
+   "Subcategory": "Mengenoperationen",
+   "Interpretation": "Potenzmenge der Menge ",
+   "LaTeX": "\\mathfrak{P}",
+   "HTML": "",
+   "Unicode": "U+1D513"
+ },
+ {
+   "Category": "Mengenlehre",
+   "Subcategory": "Mengenrelationen",
+   "Interpretation": " ist echte Teilmenge von ",
+   "LaTeX": "\\subset",
+   "HTML": "&sub;",
+   "Unicode": "U+2282"
+ },
+ {
+   "Category": "Mengenlehre",
+   "Subcategory": "Mengenrelationen",
+   "Interpretation": " ist echte Teilmenge von ",
+   "LaTeX": "\\subsetneq",
+   "HTML": "",
+   "Unicode": "U+228A"
+ },
+ {
+   "Category": "Mengenlehre",
+   "Subcategory": "Mengenrelationen",
+   "Interpretation": " ist Teilmenge von ",
+   "LaTeX": "\\subseteq",
+   "HTML": "&sube;",
+   "Unicode": "U+2286"
+ },
+ {
+   "Category": "Mengenlehre",
+   "Subcategory": "Mengenrelationen",
+   "Interpretation": " ist echte Obermenge von ",
+   "LaTeX": "\\supset",
+   "HTML": "&sup;",
+   "Unicode": "U+2283"
+ },
+ {
+   "Category": "Mengenlehre",
+   "Subcategory": "Mengenrelationen",
+   "Interpretation": " ist echte Obermenge von ",
+   "LaTeX": "\\supsetneq",
+   "HTML": "",
+   "Unicode": "U+228B"
+ },
+ {
+   "Category": "Mengenlehre",
+   "Subcategory": "Mengenrelationen",
+   "Interpretation": " ist Obermenge von ",
+   "LaTeX": "\\supseteq",
+   "HTML": "&supe;",
+   "Unicode": "U+2287"
+ },
+ {
+   "Category": "Mengenlehre",
+   "Subcategory": "Mengenrelationen",
+   "Interpretation": "das Element  ist in der Menge  enthalten",
+   "LaTeX": "\\in",
+   "HTML": "&isin;",
+   "Unicode": "U+2208"
+ },
+ {
+   "Category": "Mengenlehre",
+   "Subcategory": "Mengenrelationen",
+   "Interpretation": "das Element  ist in der Menge  enthalten",
+   "LaTeX": "\\ni, \\owns",
+   "HTML": "&ni;",
+   "Unicode": "U+220B"
+ },
+ {
+   "Category": "Mengenlehre",
+   "Subcategory": "Mengenrelationen",
+   "Interpretation": "das Element  ist nicht in der Menge  enthalten",
+   "LaTeX": "\\notin",
+   "HTML": "&notin;",
+   "Unicode": "U+2209"
+ },
+ {
+   "Category": "Mengenlehre",
+   "Subcategory": "Mengenrelationen",
+   "Interpretation": "das Element  ist nicht in der Menge  enthalten",
+   "LaTeX": "\\not\\ni",
+   "HTML": "",
+   "Unicode": "U+220C"
+ },
+ {
+   "Category": "Mengenlehre",
+   "Subcategory": "Zahlenmengen",
+   "Interpretation": "Primzahlen",
+   "LaTeX": "\\mathbb{P}",
+   "HTML": "&Popf;",
+   "Unicode": "U+2119"
+ },
+ {
+   "Category": "Mengenlehre",
+   "Subcategory": "Zahlenmengen",
+   "Interpretation": "natürliche Zahlen",
+   "LaTeX": "\\mathbb{N}",
+   "HTML": "&Nopf;",
+   "Unicode": "U+2115"
+ },
+ {
+   "Category": "Mengenlehre",
+   "Subcategory": "Zahlenmengen",
+   "Interpretation": "ganze Zahlen",
+   "LaTeX": "\\mathbb{Z}",
+   "HTML": "&Zopf;",
+   "Unicode": "U+2124"
+ },
+ {
+   "Category": "Mengenlehre",
+   "Subcategory": "Zahlenmengen",
+   "Interpretation": "endlicher Körper mit Primzahlcharakteristik ",
+   "LaTeX": "\\mathbb{F}",
+   "HTML": "&Fopf;",
+   "Unicode": "U+1D53D"
+ },
+ {
+   "Category": "Mengenlehre",
+   "Subcategory": "Zahlenmengen",
+   "Interpretation": "rationale Zahlen",
+   "LaTeX": "\\mathbb{Q}",
+   "HTML": "&Qopf;",
+   "Unicode": "U+211A"
+ },
+ {
+   "Category": "Mengenlehre",
+   "Subcategory": "Zahlenmengen",
+   "Interpretation": "irrationale Zahlen",
+   "LaTeX": "\\mathbb{I}",
+   "HTML": "&Iopf;",
+   "Unicode": "U+1D540"
+ },
+ {
+   "Category": "Mengenlehre",
+   "Subcategory": "Zahlenmengen",
+   "Interpretation": "algebraische Zahlen",
+   "LaTeX": "\\mathbb{A}",
+   "HTML": "&Aopf;",
+   "Unicode": "U+1D538"
+ },
+ {
+   "Category": "Mengenlehre",
+   "Subcategory": "Zahlenmengen",
+   "Interpretation": "transzendente Zahlen",
+   "LaTeX": "\\mathbb{T}",
+   "HTML": "&Topf;",
+   "Unicode": "U+1D54B"
+ },
+ {
+   "Category": "Mengenlehre",
+   "Subcategory": "Zahlenmengen",
+   "Interpretation": "reelle Zahlen",
+   "LaTeX": "\\mathbb{R}",
+   "HTML": "&Ropf;",
+   "Unicode": "U+211D"
+ },
+ {
+   "Category": "Mengenlehre",
+   "Subcategory": "Zahlenmengen",
+   "Interpretation": "hyperreelle Zahlen",
+   "LaTeX": "{}^*\\mathbb{R}",
+   "HTML": "* &Ropf;",
+   "Unicode": "U+211D"
+ },
+ {
+   "Category": "Mengenlehre",
+   "Subcategory": "Zahlenmengen",
+   "Interpretation": "komplexe Zahlen",
+   "LaTeX": "\\mathbb{C}",
+   "HTML": "&Copf;",
+   "Unicode": "U+2102"
+ },
+ {
+   "Category": "Mengenlehre",
+   "Subcategory": "Zahlenmengen",
+   "Interpretation": "Quaternionen",
+   "LaTeX": "\\mathbb{H}",
+   "HTML": "&Hopf;",
+   "Unicode": "U+210D"
+ },
+ {
+   "Category": "Mengenlehre",
+   "Subcategory": "Zahlenmengen",
+   "Interpretation": "Oktonionen",
+   "LaTeX": "\\mathbb{O}",
+   "HTML": "",
+   "Unicode": "U+1D546"
+ },
+ {
+   "Category": "Mengenlehre",
+   "Subcategory": "Zahlenmengen",
+   "Interpretation": "Sedenionen",
+   "LaTeX": "\\mathbb{S}",
+   "HTML": "",
+   "Unicode": "U+1D54A"
+ },
+ {
+   "Category": "Mengenlehre",
+   "Subcategory": "Zahlenmengen",
+   "Interpretation": "",
+   "LaTeX": "\\mathbb{K}",
+   "HTML": "&Kopf;",
+   "Unicode": "U+1D542"
+ },
+ {
+   "Category": "Mengenlehre",
+   "Subcategory": "Mächtigkeiten",
+   "Interpretation": "Mächtigkeit (Kardinalität) einer Menge ",
+   "LaTeX": "\\vert",
+   "HTML": "",
+   "Unicode": "U+007C"
+ },
+ {
+   "Category": "Mengenlehre",
+   "Subcategory": "Mächtigkeiten",
+   "Interpretation": "Mächtigkeit (Kardinalität) einer Menge ",
+   "LaTeX": "\\#",
+   "HTML": "",
+   "Unicode": "U+0023"
+ },
+ {
+   "Category": "Mengenlehre",
+   "Subcategory": "Mächtigkeiten",
+   "Interpretation": "Mächtigkeit des Kontinuums",
+   "LaTeX": "\\mathfrak{c}",
+   "HTML": "",
+   "Unicode": "U+1D520"
+ },
+ {
+   "Category": "Mengenlehre",
+   "Subcategory": "Mächtigkeiten",
+   "Interpretation": "Kardinalzahlen",
+   "LaTeX": "\\aleph",
+   "HTML": "",
+   "Unicode": "U+2135"
+ },
+ {
+   "Category": "Mengenlehre",
+   "Subcategory": "Mächtigkeiten",
+   "Interpretation": "Beth-Zahlen",
+   "LaTeX": "\\beth",
+   "HTML": "",
+   "Unicode": "U+2136"
+ },
+ {
+   "Category": "Arithmetik",
+   "Subcategory": "Rechenzeichen",
+   "Interpretation": " und  werden addiert",
+   "LaTeX": "+",
+   "HTML": "",
+   "Unicode": "U+002B"
+ },
+ {
+   "Category": "Arithmetik",
+   "Subcategory": "Rechenzeichen",
+   "Interpretation": " wird von  subtrahiert",
+   "LaTeX": "-",
+   "HTML": "&minus;",
+   "Unicode": "U+2212"
+ },
+ {
+   "Category": "Arithmetik",
+   "Subcategory": "Rechenzeichen",
+   "Interpretation": " und  werden multipliziert",
+   "LaTeX": "\\cdot",
+   "HTML": "&middot;",
+   "Unicode": "U+22C5"
+ },
+ {
+   "Category": "Arithmetik",
+   "Subcategory": "Rechenzeichen",
+   "Interpretation": " und  werden multipliziert",
+   "LaTeX": "\\times",
+   "HTML": "&times;",
+   "Unicode": "U+2A2F"
+ },
+ {
+   "Category": "Arithmetik",
+   "Subcategory": "Rechenzeichen",
+   "Interpretation": " wird durch  dividiert",
+   "LaTeX": ":",
+   "HTML": "",
+   "Unicode": "U+003A"
+ },
+ {
+   "Category": "Arithmetik",
+   "Subcategory": "Rechenzeichen",
+   "Interpretation": " wird durch  dividiert",
+   "LaTeX": "/",
+   "HTML": "&frasl;",
+   "Unicode": "U+2215"
+ },
+ {
+   "Category": "Arithmetik",
+   "Subcategory": "Rechenzeichen",
+   "Interpretation": " wird durch  dividiert",
+   "LaTeX": "\\div",
+   "HTML": "&divide;",
+   "Unicode": "U+00F7"
+ },
+ {
+   "Category": "Arithmetik",
+   "Subcategory": "Rechenzeichen",
+   "Interpretation": " wird durch  dividiert",
+   "LaTeX": "\\frac",
+   "HTML": "",
+   "Unicode": "U+2044"
+ },
+ {
+   "Category": "Arithmetik",
+   "Subcategory": "Rechenzeichen",
+   "Interpretation": "negative Zahl  oder additiv Inverses von ",
+   "LaTeX": "-",
+   "HTML": "&minus;",
+   "Unicode": "U+2212"
+ },
+ {
+   "Category": "Arithmetik",
+   "Subcategory": "Rechenzeichen",
+   "Interpretation": "plus oder minus ",
+   "LaTeX": "\\pm",
+   "HTML": "&plusmn;",
+   "Unicode": "U+00B1"
+ },
+ {
+   "Category": "Arithmetik",
+   "Subcategory": "Rechenzeichen",
+   "Interpretation": "minus oder plus ",
+   "LaTeX": "\\mp",
+   "HTML": "",
+   "Unicode": "U+2213"
+ },
+ {
+   "Category": "Arithmetik",
+   "Subcategory": "Rechenzeichen",
+   "Interpretation": "der Term  wird zuerst ausgewertet",
+   "LaTeX": "( )",
+   "HTML": "",
+   "Unicode": "U+0028/9"
+ },
+ {
+   "Category": "Arithmetik",
+   "Subcategory": "Rechenzeichen",
+   "Interpretation": "der Term  wird zuerst ausgewertet",
+   "LaTeX": "[ ]",
+   "HTML": "",
+   "Unicode": "U+005B/D"
+ },
+ {
+   "Category": "Arithmetik",
+   "Subcategory": "Gleichheitszeichen",
+   "Interpretation": " ist gleich ",
+   "LaTeX": "=",
+   "HTML": "",
+   "Unicode": "U+003D"
+ },
+ {
+   "Category": "Arithmetik",
+   "Subcategory": "Gleichheitszeichen",
+   "Interpretation": " ist nicht gleich ",
+   "LaTeX": "\\neq",
+   "HTML": "&ne;",
+   "Unicode": "U+2260"
+ },
+ {
+   "Category": "Arithmetik",
+   "Subcategory": "Gleichheitszeichen",
+   "Interpretation": " ist identisch mit ",
+   "LaTeX": "\\equiv",
+   "HTML": "&equiv;",
+   "Unicode": "U+2261"
+ },
+ {
+   "Category": "Arithmetik",
+   "Subcategory": "Gleichheitszeichen",
+   "Interpretation": " ist ungefähr gleich ",
+   "LaTeX": "\\approx",
+   "HTML": "&asymp;",
+   "Unicode": "U+2248"
+ },
+ {
+   "Category": "Arithmetik",
+   "Subcategory": "Gleichheitszeichen",
+   "Interpretation": " ist proportional zu ",
+   "LaTeX": "\\sim",
+   "HTML": "&sim;",
+   "Unicode": "U+223C"
+ },
+ {
+   "Category": "Arithmetik",
+   "Subcategory": "Gleichheitszeichen",
+   "Interpretation": " ist proportional zu ",
+   "LaTeX": "\\propto",
+   "HTML": "&prop;",
+   "Unicode": "U+221D"
+ },
+ {
+   "Category": "Arithmetik",
+   "Subcategory": "Gleichheitszeichen",
+   "Interpretation": " entspricht ",
+   "LaTeX": "\\widehat{=}",
+   "HTML": "",
+   "Unicode": "U+2259"
+ },
+ {
+   "Category": "Arithmetik",
+   "Subcategory": "Gleichheitszeichen",
+   "Interpretation": " wird genauso geschätzt wie ",
+   "LaTeX": "\\sim",
+   "HTML": "",
+   "Unicode": "-"
+ },
+ {
+   "Category": "Arithmetik",
+   "Subcategory": "Vergleichszeichen",
+   "Interpretation": " ist kleiner als ",
+   "LaTeX": "<",
+   "HTML": "&lt;",
+   "Unicode": "U+003C"
+ },
+ {
+   "Category": "Arithmetik",
+   "Subcategory": "Vergleichszeichen",
+   "Interpretation": " ist größer als ",
+   "LaTeX": ">",
+   "HTML": "&gt;",
+   "Unicode": "U+003E"
+ },
+ {
+   "Category": "Arithmetik",
+   "Subcategory": "Vergleichszeichen",
+   "Interpretation": " ist kleiner als  oder gleich ",
+   "LaTeX": "\\le, \\leq",
+   "HTML": "&le;",
+   "Unicode": "U+2264"
+ },
+ {
+   "Category": "Arithmetik",
+   "Subcategory": "Vergleichszeichen",
+   "Interpretation": " ist kleiner als  oder gleich ",
+   "LaTeX": "\\leqq",
+   "HTML": "",
+   "Unicode": "U+2266"
+ },
+ {
+   "Category": "Arithmetik",
+   "Subcategory": "Vergleichszeichen",
+   "Interpretation": " ist größer als  oder gleich ",
+   "LaTeX": "\\ge, \\geq",
+   "HTML": "&ge;",
+   "Unicode": "U+2265"
+ },
+ {
+   "Category": "Arithmetik",
+   "Subcategory": "Vergleichszeichen",
+   "Interpretation": " ist größer als  oder gleich ",
+   "LaTeX": "\\geqq",
+   "HTML": "",
+   "Unicode": "U+2267"
+ },
+ {
+   "Category": "Arithmetik",
+   "Subcategory": "Vergleichszeichen",
+   "Interpretation": " ist viel kleiner als ",
+   "LaTeX": "\\ll",
+   "HTML": "",
+   "Unicode": "U+226A"
+ },
+ {
+   "Category": "Arithmetik",
+   "Subcategory": "Vergleichszeichen",
+   "Interpretation": " ist viel größer als ",
+   "LaTeX": "\\gg",
+   "HTML": "",
+   "Unicode": "U+226B"
+ },
+ {
+   "Category": "Arithmetik",
+   "Subcategory": "Vergleichszeichen",
+   "Interpretation": " wird  schwach vorgezogen bzw.  ist mindestens so gut wie ",
+   "LaTeX": "\\succcurlyeq",
+   "HTML": "",
+   "Unicode": "-"
+ },
+ {
+   "Category": "Arithmetik",
+   "Subcategory": "Vergleichszeichen",
+   "Interpretation": " wird  schwach vorgezogen bzw.  ist mindestens so gut wie ",
+   "LaTeX": "\\preccurlyeq",
+   "HTML": "",
+   "Unicode": "-"
+ },
+ {
+   "Category": "Arithmetik",
+   "Subcategory": "Vergleichszeichen",
+   "Interpretation": " wird gegenüber  strikt vorgezogen",
+   "LaTeX": "\\succ",
+   "HTML": "",
+   "Unicode": "-"
+ },
+ {
+   "Category": "Arithmetik",
+   "Subcategory": "Vergleichszeichen",
+   "Interpretation": " wird gegenüber  strikt vorgezogen",
+   "LaTeX": "\\prec",
+   "HTML": "",
+   "Unicode": "-"
+ }
+]

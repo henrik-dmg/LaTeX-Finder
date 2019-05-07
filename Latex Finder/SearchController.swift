@@ -14,10 +14,15 @@ class SearchController: NSView {
     
     @IBOutlet weak var searchBar: NSSearchField!
     @IBOutlet weak var tableView: NSTableView!
-    var filteredSymbols: [String] = [String]()
+    var store: SymbolStore?
     
     override func awakeFromNib() {
         print("search view awoke from nib")
+        if let path = Bundle.main.path(forResource: "convertcsv", ofType: "json") {
+            let fileURL = URL(fileURLWithPath: path)
+            self.store = SymbolStore(fileURL)
+        }
+        
         searchBar.delegate = self
         
         tableView.delegate = self
@@ -27,14 +32,18 @@ class SearchController: NSView {
 
 extension SearchController: NSTableViewDataSource, NSTableViewDelegate {
     func numberOfRows(in tableView: NSTableView) -> Int {
-        return 3
+        return store?.symbols.count ?? 0
     }
     
     func tableView(_ tableView: NSTableView, viewFor tableColumn: NSTableColumn?, row: Int) -> NSView? {
         if let cell = tableView.makeView(withIdentifier: NSUserInterfaceItemIdentifier(rawValue: "LatexCell"), owner: nil) as? LatexCell {
-            cell.latexView.latex = "\\infty"
-            cell.latexView.textColor = .white
-            cell.codeLabel.stringValue = "\\infty"
+            if let symbol = store?.symbols[row] {
+                cell.latexView.latex = symbol.laTeX
+                cell.codeLabel.stringValue = symbol.laTeX
+                cell.latexView.fontSize = cell.frame.height * 0.4
+                print(cell.frame.height)
+                cell.latexView.textColor = .white
+            }
             return cell
         }
         
